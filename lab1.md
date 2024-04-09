@@ -1,4 +1,4 @@
-# Lab Report 1 \
+# Lab Report 1 
 ##`cd` \
 **1. `cd` command with no arguments:** \
 ![Image](cd 1.png) \
@@ -8,20 +8,20 @@ explanation: the output returns nothing because `cd` stands for "change director
 **2. `cd` command with directory as argument:** \
 ![Image](cd 2.png) \
 absolute path *before* command: /Users/adityamathur \
-explanation: `cd` with a directory as the argument adds the argument to the working directory. 
-
-**3. `cd` command with file as argument:**
-![Image](cd 3.png)
-absolute path *before* command: /Users/adityamathur/lecture1
-explanation: an error arises because `cd` only changes the directory and a file is not a directory.
-
----
-
-##`ls`
-**1. `ls` command with no arguments:**
-![Image](ls 1.png)
-absolute path *before* command: /Users/adityamathur/lecture1
-explanation: `ls` with no arguments lists all the files within the working directory as seen in the image.
+explanation: `cd` with a directory as the argument adds the argument to the working directory. \
+\
+**3. `cd` command with file as argument:**\
+![Image](cd 3.png)\
+absolute path *before* command: /Users/adityamathur/lecture1\
+explanation: an error arises because `cd` only changes the directory and a file is not a directory.\
+\
+\
+\
+##`ls`\
+**1. `ls` command with no arguments:**\
+![Image](ls 1.png)\
+absolute path *before* command: /Users/adityamathur/lecture1\
+explanation: `ls` with no arguments lists all the files within the working directory as seen in the image.\
 
 **2. `ls` command with directory as argument:**
 ![Image](ls 2.png)
