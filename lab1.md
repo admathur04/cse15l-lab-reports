@@ -1,5 +1,5 @@
 # Lab Report 1 
-## `cd` \
+## `cd` 
 **1. `cd` command with no arguments:** \
 ![Image](cd 1.png) \
 absolute path *before* command: /Users/adityamathur \
@@ -17,7 +17,7 @@ explanation: an error arises because `cd` only changes the directory and a file 
 \
 \
 \
-## `ls`\
+## `ls`
 **1. `ls` command with no arguments:**\
 ![Image](ls 1.png)\
 absolute path *before* command: /Users/adityamathur/lecture1\
@@ -35,7 +35,7 @@ explanation: `ls` with a file as the argument lists descriptions about the file 
 \
 \
 \
-## `cat`\
+## `cat`
 **1. `cat` command with no arguments:**\
 ![Image](cat 1.png)\
 absolute path *before* command: /Users/adityamathur/lecture1\
