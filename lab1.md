@@ -1,13 +1,13 @@
-# Lab Report 1
-##`cd`
-**1. `cd` command with no arguments:**
-![Image](cd 1.png)
-absolute path *before* command: /Users/adityamathur
-explanation: the output returns nothing because `cd` stands for "change directory." since there was no arguments, there was nothing to change.
-
-**2. `cd` command with directory as argument:**
-![Image](cd 2.png)
-absolute path *before* command: /Users/adityamathur
+# Lab Report 1 \
+##`cd` \
+**1. `cd` command with no arguments:** \
+![Image](cd 1.png) \
+absolute path *before* command: /Users/adityamathur \
+explanation: the output returns nothing because `cd` stands for "change directory." since there was no arguments, there was nothing to change. \
+\
+**2. `cd` command with directory as argument:** \
+![Image](cd 2.png) \
+absolute path *before* command: /Users/adityamathur \
 explanation: `cd` with a directory as the argument adds the argument to the working directory. 
 
 **3. `cd` command with file as argument:**
