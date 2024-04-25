@@ -8,7 +8,7 @@
 **Which of the methods in your code are called?** \
 In ChatServer.java, the methods `main(String[] args)` and `handleRequest(URI url)` are called. \
 In Server.java, the methods `start(int port, URLHandler handler` and `handle(HttpExchange exchange)` are called. \
-/
+
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?** \
 Relevant arguments and fields of `main(String[] args)`: 
   1. Relevant arguments: `args` is the array of command-line arguments passed to the program. In this case, \
