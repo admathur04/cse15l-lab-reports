@@ -1,10 +1,10 @@
 # Lab Report 2
 ## ChatServer.java \
-![Image][ChatServer.png] \
+![Image][ChatServer.png] 
 \
 \
 ## First example using ChatServer: \
-![Image][sc1.png] \
+![Image][sc1.png] 
 **Which of the methods in your code are called?** /
 In ChatServer.java, the methods `main(String[] args)` and `handleRequest(URI url)` are called. \
 In Server.java, the methods `start(int port, URLHandler handler` and `handle(HttpExchange exchange)` are called. \
@@ -27,7 +27,7 @@ in the ServerHttpHandler class remains unaffected as it is set when the server s
 \
 \
 ## Second example using ChatServer: /
-![Image][sc2.png] \
+![Image][sc2.png] 
 **Which of the methods in your code are called?** /
 In ChatServer.java, the methods `main(String[] args)` and `handleRequest(URI url)` are called. \
 In Server.java, the methods `start(int port, URLHandler handler` and `handle(HttpExchange exchange)` are called. \
@@ -50,6 +50,6 @@ in the ServerHttpHandler class remains unaffected as it is set when the server s
 \
 ---
 # Part 2
-![Image][pt2_1.png] \
+![Image][pt2_1.png] 
 
 
