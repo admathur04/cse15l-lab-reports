@@ -18,7 +18,7 @@ code would be `newArray[i] = arr[arr.length - i - 1];`.
    correct code should be `return newArray;`.
 \
 \
-**Failure-inducing input as a JUnit Test:** \
+**Failure-inducing input as a JUnit Test:** 
 ```
 @Test 
   public void testReversedFailure() {
