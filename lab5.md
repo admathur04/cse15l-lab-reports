@@ -28,7 +28,7 @@ code would be `newArray[i] = arr[arr.length - i - 1];`.
   }
 ```
 \
-**Input that doesn't induce a failure as a JUnit Test:** \
+**Input that doesn't induce a failure as a JUnit Test:** 
 ```
 @Test
   public void testReversed() {
@@ -36,6 +36,6 @@ code would be `newArray[i] = arr[arr.length - i - 1];`.
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
 ```
-\
+
 
    
