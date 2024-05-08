@@ -17,6 +17,7 @@ code would be `newArray[i] = arr[arr.length - i - 1];`.
 2. `return arr;` returns the original array, not the reversed array. The \
    correct code should be `return newArray;`.
 \
+\
 **Failure-inducing input as a JUnit Test:** \
 ```
 @Test 
