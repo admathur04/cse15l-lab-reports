@@ -1,6 +1,6 @@
 # Lab 5 Report
 ## Part 1
-**Buggy Program** \
+**Buggy Program** 
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -10,7 +10,7 @@ static int[] reversed(int[] arr) {
     return arr;
   }
 ```
-There are 2 bugs in this program: \
+There are 2 bugs in this program: 
 1.  `arr[i] = newArray[arr.length - i - 1];` assigns values of the \
    original array to the new array. It should the opposite. The correct \
 code would be `newArray[i] = arr[arr.length - i - 1];`. 
