@@ -50,6 +50,19 @@ in the ServerHttpHandler class remains unaffected as it is set when the server s
 \
 ---
 # Part 2
+**private key:**
 ![Image](pt2_1.png) 
+ \
+**public key on ieng6 machine:**
+![Image](PublicKey.png)
+ \
+**no password login:**
+![Image](PublicKey.png)
+
+---
+# Part 3
+I did not know that we were able to run the command line on "different" computers than the local machine we're using. \
+I also did not know that public/private keys are used to enable not needing a password. It was pretty cool \
+using the command line on a different computer. 
 
 
