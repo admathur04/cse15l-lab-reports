@@ -68,5 +68,50 @@ that original array (which will always be empty).
 ---
 
 ## Part 2
+Command chosen: **find**
+**-exec**
+Example 1: 
+```
+$ find /Users/adityamathur/docsearch/technical/biomed -name "*-2.txt" -exec mv {} /Users/adityamathur/docsearch/technical \; \
+
+```
+Explanation: -exec executes a specific command for each file found by the find criteria. In this example, we are moving the files \
+found in the first directory into the second directory. There is no output. \
+ \
+Example 2: 
+```
+$ find /Users/adityamathur/docsearch/technical/biomed -name "*-3.txt" -exec head {} \;
+Background
+        Common variable immunodeficiency (CVID) and selective
+        immunoglobulin G subclass deficiency (IgGSD) are
+        characterized by subnormal serum concentrations of total
+        IgG, or by normal serum total IgG concentrations with
+        deficiency of one or more IgG subclasses, respectively; in
+
+        Background
+        CFEOM1 is an autosomal dominant disorder that has been
+        linked to the pericentromere of chromosome 12, flanked by
+        marker D12S1584 on the p arm and D12S1668 on the q arm [ 1,
+        2]. The clinical phenotype consists of congenital,
+        bilateral ptosis and external ophthalmoplegia, with the
+
+        Background
+        The increasing research in Complementary and Alternative
+        Medicine (CAM) and the importance placed on practicing
+        evidence-based CAM require ready access to the CAM
+        scientific literature. The optimal retrieval of a
+        literature search in biomedicine depends on the appropriate
+```
+Explanation: -exec executes a specific command for each file found by the find criteria. Here we are finding files given \
+the criteria and `head` prints the first few lines of file and -exec applies to that command to every file found.
+ \
+ 
+**-name**
+Example 1:
+```
+$ find /Users/adityamathur/docsearch/technical/government/Post_Rate_Comm -name "*Delivery.txt"
+/Users/adityamathur/docsearch/technical/government/Post_Rate_Comm/Cohenetal_RuralDelivery.txt
+```
+Explanation: -name
 
    
