@@ -106,12 +106,18 @@ Explanation: -exec executes a specific command for each file found by the find c
 the criteria and `head` prints the first few lines of file and -exec applies to that command to every file found.
  \
  
-**-name**
+**-name** \
 Example 1:
 ```
 $ find /Users/adityamathur/docsearch/technical/government/Post_Rate_Comm -name "*Delivery.txt"
 /Users/adityamathur/docsearch/technical/government/Post_Rate_Comm/Cohenetal_RuralDelivery.txt
 ```
-Explanation: -name
+Explanation: `find -name` allows to search for files and directories that match the specified name pattern. Here \
+we see that we're finding any file in the given directory that ends in "Delivery.txt" and see that the file \
+Cohenetal_RuralDelivery.txt is returned. \
+ \
+Example 2:
+```
+
 
    
