@@ -68,8 +68,8 @@ that original array (which will always be empty).
 ---
 
 ## Part 2
-Command chosen: **find**
-**-exec**
+Command chosen: **find** \
+**-exec** \
 Example 1: 
 ```
 $ find /Users/adityamathur/docsearch/technical/biomed -name "*-2.txt" -exec mv {} /Users/adityamathur/docsearch/technical \; \
