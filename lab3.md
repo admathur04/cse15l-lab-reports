@@ -126,7 +126,7 @@ $ find /Users/adityamathur/docsearch/technical/plos -name "*68.txt"
 ```
 Explanation: `find -name` allows to search for files and directories that match the specified name pattern. Similar \
 to last example, here we are finding texts that end in "68.txt" and see that multiple files are returned \
-within the directory.
+within the directory. \
  \
 **-type** \
 Example 1:
