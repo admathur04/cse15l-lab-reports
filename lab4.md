@@ -1,23 +1,27 @@
 # Lab Report 4
 ## Baseline
 4. \
+![Image](4.png)
 **Keys Pressed**: `ssh<space>amathur@ieng6.ucsd.edu<enter>` \
 **Summary**: I ran the `ssh` command which secures me to a remote server \
 and specified my username to connect to the remote host. 
  
 5. \
+![Image](5.png)
 **Keys Pressed**: `cs15lsp24<enter>git<space> clone <space> <command><v>` \
 **Summary**: I entered my class name within the remote host to enter its work \
 space. Then I used `git clone` to clone the files from the lab7 github repository \
 onto my computer. 
  
 6. \
+![Image](6.png)
 **Keys Pressed**: `cd<space>lab7<enter>ls<enter>bash<space>test.sh<enter>` \
 **Summary**: I used the `cd` command to change directories into the repository I \
 cloned. Then I listed the files within `lab7` to see the name of the test script file, \
 then ran the test script file. 
  
 7. \
+![Image](7.png)
 **Keys Pressed**: `vim<space>ListExamples.java<enter><shift>:set<space>number<enter><shift>` \
 `:15<enter><shift>$<enter>i<left><left><delete><delete><delete><esc><shift>:44<enter><right>` \
 `<right><right><right><right><right>i<delete>2<esc><shift>:wq<enter>` \
@@ -27,11 +31,13 @@ code using the `: <line-number>` command in `vim`. I used the <left> and <right>
 the characters of the lines of code. Finally, I used `wq:` to save my changes and exit `vim`. 
  
 8. \
+![Image](8.png)
 **Keys Pressed**: `bash<space>test.sh<enter>` \
 **Summary**: I ran the test script file again to verify the changes I made on `ListExamples.java` \
 using `vim` would fix the errors in the code. 
  
 9. \
+![Image](9.png)
 **Keys Pressed**: `git<space>init<enter>git<space>add<space>.<enter>git<space>commit<space>-m<space><shift>` \
 `”lab7<shift>”<enter>git<space>push<space>origin<space>main<enter>` \
 **Summary**: I used `git init` to initialize a git repository registered to my account. Then I used `git add .` \
