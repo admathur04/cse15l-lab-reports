@@ -21,7 +21,7 @@ It looks like there is nowhere in the `remove` method that actually decrements t
 not having a `length--;` before returning the new array list with the specified element removed.
  \
  \
-**File and Directory Structure**:
+**Directory Structure**:
 ```
 -PA2 Copy 
   -libs
@@ -34,3 +34,34 @@ not having a `length--;` before returning the new array list with the specified 
      -MyList.class
      -test.sh
 ```
+**Contents of MyArrayList.java BEFORE fixing bug**:
+```
+@SuppressWarnings("unchecked")
+    public E remove(int index) {
+        if (index < 0 || index > this.values.length) {
+            throw new IndexOutOfBoundsException();
+        }
+        E removed = (E) this.values[index];
+        for (int i = index; i < this.length - 1; i++) {
+            this.values[i] = this.values[i + 1];
+        }
+        this.values[this.length - 1] = null;
+        System.out.println("Length before decrement: " + this.length);
+        return removed;
+    }
+```
+```
+public static void main(String args[]){
+        MyArrayList<Integer> list = new MyArrayList<>();
+        list.append(1);
+        list.append(2);
+        list.append(3);
+        System.out.println("Size before removal: " + list.size());
+        list.remove(1);
+        System.out.println("Size after removal: " + list.size());
+    }
+```
+**Command lines ran to trigger bug**: \
+![Image](jdb-output.png) \
+**How to fix bug**: \
+Fix the bug by adding a `length--;` before the `return removed;` line in the `remove` method. 
