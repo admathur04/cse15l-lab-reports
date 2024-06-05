@@ -65,3 +65,9 @@ public static void main(String args[]){
 ![Image](jdb-output.png) \
 **How to fix bug**: \
 Fix the bug by adding a `length--;` before the `return removed;` line in the `remove` method. 
+ 
+ 
+## Reflection
+
+Learning about the JDB debugger was awesome because it made tracking down bugs in Java code so much easier! It's cool to see \
+exactly what's going on under the hood and fix issues way faster. Debugging feels way less like a mystery now.
