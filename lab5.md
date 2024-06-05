@@ -14,5 +14,23 @@ Hi there, could you try using the `jdb` debugger and iterate line through line o
 and how it changes/if it changes throughout the call of the `remove` method? \
  \
  \
-**Student A**: *Used jdb debugger*
-I used the `jdb` debugger to iterate through my main method line by line to see how the `length` variable changes. It looks like there is nowhere in the `remove` method that actually decrements the `length` variable. So the bug would be not having a `length--;` \before returning the new array list with the 
+**Student A**: *Used jdb debugger* \
+I used the `jdb` debugger to iterate through my main method line by line to see how the `length` variable changes. 
+![Image](jdb-output.png)
+It looks like there is nowhere in the `remove` method that actually decrements the `length` variable. So the bug would be \
+not having a `length--;` before returning the new array list with the specified element removed.
+ \
+ \
+**File and Directory Structure**:
+```
+-PA2 Copy 
+  -libs
+     -hamcrest-2.2.jar
+     -junit-4.13.2.jar
+  -starter 
+     -MyArrayList.java 
+     -MyArrayList.class 
+     -MyList.java 
+     -MyList.class
+     -test.sh
+```
